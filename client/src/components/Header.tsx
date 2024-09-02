@@ -43,7 +43,7 @@ export default function Header() {
   return (
     <nav className="w-full h-[60px] bg-gray-900 text-white p-3 flex justify-between items-center">
       <Link to="/">
-        <h2 className="font-bold select-none">WD Compiler</h2>
+        <h2 className="font-bold select-none">CodeQuik</h2>
       </Link>
       {windowWidth > 640 ? (
         <ul className="flex gap-2">
@@ -160,14 +160,22 @@ export default function Header() {
                   <>
                     <li>
                       <Link to="/login">
-                        <Button onClick={handleCloseSheet} className="w-full" variant="blue">
+                        <Button
+                          onClick={handleCloseSheet}
+                          className="w-full"
+                          variant="blue"
+                        >
                           Login
                         </Button>
                       </Link>
                     </li>
                     <li>
                       <Link to="/signup">
-                        <Button onClick={handleCloseSheet} className="w-full" variant="blue">
+                        <Button
+                          onClick={handleCloseSheet}
+                          className="w-full"
+                          variant="blue"
+                        >
                           Signup
                         </Button>
                       </Link>
