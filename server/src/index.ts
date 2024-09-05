@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 import cors from "cors";
 import { config } from "dotenv";
 import { dbConnect } from "./lib/dbConnect";
